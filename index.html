@@ -1,1 +1,223 @@
-<!DOCTYPE html><html lang='ar' dir='rtl'><head><meta charset='UTF-8'><meta name='viewport' content='width=device-width,initial-scale=1.0'><title>APPME</title><style>body{margin:0;font-family:Arial;background:#0f172a;color:#fff}header,.footer{text-align:center;padding:30px;background:#111827}.hero{text-align:center;padding:80px 20px}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px;padding:20px}.card{background:#1e293b;padding:20px;border-radius:16px}.chat{margin:20px;background:#1e293b;padding:20px;border-radius:16px}input,textarea{width:100%;margin-top:10px;padding:10px;background:#334155;color:#fff;border:none;border-radius:10px}button{padding:10px 18px;margin-top:10px;background:#2563eb;color:#fff;border:none;border-radius:10px}</style></head><body><header><h1>APPME</h1><p>موقعي الرسمي</p></header><section class='hero'><h1>مرحبا بك</h1><p>تطبيقات وألعاب وفيديوهات</p></section><section class='grid'><div class='card'><h2>التطبيقات</h2></div><div class='card'><h2>الألعاب</h2></div><div class='card'><h2>الفيديوهات</h2></div><div class='card'><h2>الصور</h2></div></section><section class='chat'><h2>الدردشة</h2><input placeholder='اسمك'><textarea rows='4' placeholder='رسالتك'></textarea><button>إرسال</button></section><div class='footer'>APPME 2026</div><script>const p=prompt('كلمة المرور');if(p!=='appme2026'){document.body.innerHTML='<h1 style="text-align:center;margin-top:100px">Access Denied</h1>';}</script></body></html>
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>APPME - منصة التطبيقات والألعاب</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700;900&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+<div class="loading-screen" id="loadingScreen">
+    <div class="loader"></div>
+    <h1>APPME</h1>
+</div>
+
+<header class="header">
+
+    <div class="logo">
+        APPME
+    </div>
+
+    <nav class="navbar">
+        <a href="#home">الرئيسية</a>
+        <a href="#apps">التطبيقات</a>
+        <a href="#games">الألعاب</a>
+        <a href="#videos">الفيديوهات</a>
+        <a href="#gallery">الصور</a>
+        <a href="#contact">تواصل</a>
+    </nav>
+
+</header>
+
+<section class="hero" id="home">
+
+    <div class="hero-content">
+
+        <h1>
+            منصة تطبيقاتي وألعابي الرسمية
+        </h1>
+
+        <p>
+            موقع احترافي لعرض التطبيقات والألعاب والفيديوهات والمشاريع الخاصة بك بشكل عصري وفاخر.
+        </p>
+
+        <div class="hero-buttons">
+            <button class="main-btn">استكشف الآن</button>
+            <button class="second-btn">مشاريعي</button>
+        </div>
+
+    </div>
+
+</section>
+
+<section class="stats">
+
+    <div class="stat-card">
+        <h2>+120</h2>
+        <p>مشروع</p>
+    </div>
+
+    <div class="stat-card">
+        <h2>+50K</h2>
+        <p>زائر</p>
+    </div>
+
+    <div class="stat-card">
+        <h2>+300</h2>
+        <p>فيديو</p>
+    </div>
+
+    <div class="stat-card">
+        <h2>+40</h2>
+        <p>تطبيق</p>
+    </div>
+
+</section>
+
+<section class="section" id="apps">
+
+    <div class="section-title">
+        <h1>التطبيقات</h1>
+        <p>أحدث التطبيقات الخاصة بي</p>
+    </div>
+
+    <div class="cards">
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?q=80&w=1200&auto=format&fit=crop">
+            <h2>تطبيق الدردشة</h2>
+            <p>تطبيق دردشة احترافي سريع وحديث.</p>
+            <button>تحميل</button>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1551650975-87deedd944c3?q=80&w=1200&auto=format&fit=crop">
+            <h2>تطبيق الفيديو</h2>
+            <p>منصة مشاهدة فيديوهات عصرية.</p>
+            <button>تحميل</button>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?q=80&w=1200&auto=format&fit=crop">
+            <h2>تطبيق التصميم</h2>
+            <p>أداة تصميم احترافية للمبدعين.</p>
+            <button>تحميل</button>
+        </div>
+
+    </div>
+
+</section>
+
+<section class="section dark-section" id="games">
+
+    <div class="section-title">
+        <h1>الألعاب</h1>
+        <p>أفضل الألعاب الخاصة بي</p>
+    </div>
+
+    <div class="cards">
+
+        <div class="game-card">
+            <div class="overlay"></div>
+            <img src="https://images.unsplash.com/photo-1542751371-adc38448a05e?q=80&w=1200&auto=format&fit=crop">
+            <div class="game-info">
+                <h2>لعبة البقاء</h2>
+                <p>لعبة أكشن وبقاء مذهلة.</p>
+            </div>
+        </div>
+
+        <div class="game-card">
+            <div class="overlay"></div>
+            <img src="https://images.unsplash.com/photo-1511512578047-dfb367046420?q=80&w=1200&auto=format&fit=crop">
+            <div class="game-info">
+                <h2>لعبة الرعب</h2>
+                <p>تجربة رعب مرعبة واحترافية.</p>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<section class="section" id="videos">
+
+    <div class="section-title">
+        <h1>الفيديوهات</h1>
+        <p>فيديوهات ومحتوى احترافي</p>
+    </div>
+
+    <div class="video-grid">
+
+        <div class="video-card">
+            <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ"></iframe>
+        </div>
+
+        <div class="video-card">
+            <iframe src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>
+        </div>
+
+    </div>
+
+</section>
+
+<section class="section" id="gallery">
+
+    <div class="section-title">
+        <h1>معرض الصور</h1>
+        <p>صور ومشاريع متنوعة</p>
+    </div>
+
+    <div class="gallery">
+
+        <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=1200&auto=format&fit=crop">
+
+        <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=1200&auto=format&fit=crop">
+
+        <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=1200&auto=format&fit=crop">
+
+        <img src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?q=80&w=1200&auto=format&fit=crop">
+
+    </div>
+
+</section>
+
+<section class="section contact-section" id="contact">
+
+    <div class="contact-box">
+
+        <h1>تواصل معي</h1>
+
+        <input type="text" placeholder="الاسم">
+
+        <input type="email" placeholder="البريد الإلكتروني">
+
+        <textarea placeholder="رسالتك"></textarea>
+
+        <button>إرسال الرسالة</button>
+
+    </div>
+
+</section>
+
+<footer class="footer">
+
+    <h1>APPME</h1>
+
+    <p>
+        جميع الحقوق محفوظة © 2026
+    </p>
+
+</footer>
+
+<script src="app.js"></script>
+
+</body>
+</html>
